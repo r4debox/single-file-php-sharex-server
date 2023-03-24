@@ -1,0 +1,17 @@
+﻿{
+  "Version": "14.1.0",
+  "Name": "FUCK!",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "http://YOURWEBSITEHERE/uploadb.php",
+  "Headers": {
+    "name": "{filename}"
+  },
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "secret": "SECRETHERE"
+  },
+  "FileFormName": "sharex",
+  "URL": "{response}",
+  "ErrorMessage": "{response}"
+}
